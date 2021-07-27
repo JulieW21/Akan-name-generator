@@ -1,0 +1,157 @@
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+.tab button:hover {
+  background-color: #ddd;
+}
+.tab button.active {
+  background-color: #ccc;
+}
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+body {
+    background-color: white;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.jumbotron {
+    background-color: grey;
+    padding: 0;
+    margin: 1%;
+    border-radius: 10px;
+}
+
+.row {
+    margin: 0;
+    border-radius: 10px;
+}
+
+.col-md-7 {
+    padding-left: 0;
+}
+
+h1 {
+    font-size: 34px;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    padding-top: 5%;
+}
+
+p {
+    font-size: 16px;
+}
+
+.response h6 {
+    padding-left: 34%;
+    margin: 0;
+}
+
+.content {
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: center;
+}
+
+form {
+    width: 92%;
+    height: 45%;
+    padding-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+
+.calendar {
+    padding-top: 5%;
+}
+
+.form-group {
+    padding-left: 36%;
+}
+
+.form-group .label {
+    font-size: 14px;
+}
+
+.rdio {
+    position: relative;
+}
+
+.rdio label {
+    padding-left: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 7px !important;
+}
+.rdio-default input[type="radio"]:checked+label:before {
+    border-color: red;
+}
+
+.rdio input[type="radio"]:checked+label::after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+}
+
+.button {
+    padding-left: 33%;
+}
+
+.col-md-5 img {
+    border-radius: 10px;
+    color: white;
+    padding: 0;
+    max-width: 100%;
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    padding: 0;
+}
+
+.col-md-5 {
+    padding: 0;
+}
+
+#error {
+    font-weight: bold;
+}
+
+input[type=number] {
+    color: black;
+}
+
+#mm {
+    color: black;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 2%;
+    left: 35%;
+    color: white;
+}
